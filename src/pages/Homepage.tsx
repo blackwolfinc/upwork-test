@@ -1,4 +1,3 @@
-import React from "react"
 import { Transfer } from "../components/Transfer"
 import Logo from "../assets/img/react.svg"
 

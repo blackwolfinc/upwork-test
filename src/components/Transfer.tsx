@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useMemo, useState } from 'react'
+import  { useMemo, useState } from 'react'
 import { Dropdown } from './Dropdown'
 import ArrowDown from "../assets/img/arrow-down-svgrepo-com.svg"
 import { ButtonDeposit } from './ButtonDeposit'
