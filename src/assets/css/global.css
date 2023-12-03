@@ -1,0 +1,82 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-neutral-800;
+  }
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-neutral-800;
+  }
+  .text-disable {
+    color:#3F475A;
+  }
+
+.background {
+  @apply flex justify-center items-center w-full h-screen bg-[#1B192A]
+}
+
+  .text-disable:hover {
+    color:#FBFBFB;
+  }
+  .text-Active {
+    color:#FBFBFB;
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-r from-[#7929C0]  to-[#404773]
+    
+  }
+  .bg-gradient:hover {
+    @apply bg-gradient-to-r from-[#7929C0]  to-[#404773] transition ease-in-out delay-75 scale-105    
+  }
+  .card{
+    @apply bg-[#222035] w-full rounded-[20px] p-[2rem] min-h-[8rem] flex border-[1.5px] border-[#3F475B] transition ease-in-out shadow-xl
+  }
+  .card-left{
+    @apply w-[70%] text-[20px]
+  }
+
+  .card-right{
+    @apply w-[30%] items-center flex
+  }
+  .wrap {
+    @apply bg-[#1B192A] min-w-[50rem] min-h-[30rem] font-semibold text-[#939EAA]  items-center justify-center flex flex-col p-[2rem] border-[3px] border-[#3F465A] rounded-[35px]
+  }
+  .text-number {
+    @apply text-[30px]
+  }
+  .arrow-down {
+    @apply absolute z-50 bottom-[-1.5rem] bg-[#222035] px-[0.1rem] border-[3px] border-[#1B192A] w-fit left-[46%] rounded-[8px] transition ease-in-out delay-[30]
+  }
+  .arrow-down:hover{
+    @apply border-[#625e80] 
+  }
+
+  select {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .select-wrapper {
+    position: relative;
+  }
+  
+  .select-wrapper::after {
+    content: url( "../img/down-arrow-svgrepo-com.svg");
+    scale: 0.02;
+    font-size: 1rem; 
+    height: 80px;
+    width: 80px;
+    top:-1rem;
+    right: 0rem;
+    position: absolute;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+
+
