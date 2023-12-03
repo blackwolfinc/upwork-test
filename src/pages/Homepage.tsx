@@ -1,5 +1,5 @@
 import { Transfer } from "../components/Transfer"
-import Logo from "../assets/img/react.svg"
+import Logo from "../assets/img/siba.png"
 
 export const Homepage = () => {
 
@@ -15,13 +15,13 @@ export const Homepage = () => {
   // Data Price 
   const BuyData = {
     img: Logo,
-    title: "React"
+    title: "Siba "
   }
 
   const DataCrypto = [
     { title: "Select Frist", value: 0 },
     { title: "BTC", value: 10000 },
-    { title: "WTF", value: 20000 },
+    { title: "WTC", value: 20000 },
     { title: "CKK", value: 30000 },
   ]
 

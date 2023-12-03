@@ -77,8 +77,8 @@ export const Transfer = (props: ITransfer) => {
             <h2 className='text-number'>{token}</h2>
           </div>
           <div className='card-right space-x-4  '>
-            <img src={buyData?.img}></img>
-            <h1>{buyData?.title}</h1>
+            <img className='w-[3rem]' src={buyData?.img}></img>
+            <h1 className='text-[24px]'>{buyData?.title}</h1>
           </div>
           <div className={`arrow-down ${Rotate ? "rotate-180" : ""}  `} onClick={() => { setRotate(!Rotate) }}>
             <img className='h-7' src={ArrowDown}></img>
